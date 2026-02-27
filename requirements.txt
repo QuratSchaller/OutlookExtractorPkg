@@ -1,0 +1,20 @@
+# Producto v3.0 - Python Dependencies
+# Production Release Requirements
+
+# Core Dependencies
+pywin32>=305          # Windows COM automation (Outlook)
+requests>=2.31.0      # HTTP client for APIs
+keyring>=24.0.0       # Secure credential storage
+
+# Packaging & Distribution
+pyinstaller>=6.0.0    # Create executable
+
+# Optional: For enhanced functionality
+# cryptography>=41.0.0  # Additional encryption (if needed)
+# pystray>=0.19.0       # System tray support (Phase 3)
+
+# Development Only (not needed for production build)
+# These should NOT be included in packaged application
+# pytest>=7.4.0
+# black>=23.0.0
+# pylint>=2.17.0
